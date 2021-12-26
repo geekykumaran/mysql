@@ -2,7 +2,7 @@ var Net = require('net');
 
 var PORT_END    = 60000;
 var PORT_START  = 1000;
-var TCP_TIMEOUT = 1000;
+var TCP_TIMEOUT = 1000; //added nothing
 
 process.nextTick(run);
 
